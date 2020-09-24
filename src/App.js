@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { Router, Switch, Route } from "react-router-dom"
 
 import './App.css';
 import Banner from './Banner/Banner';
@@ -11,7 +11,7 @@ import PaymentSucceeded from "./PaymentSucceeded/PaymentSucceeded";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className="App">
         <Switch>
           <Route path="/" exact>
