@@ -18,7 +18,7 @@ function EventShoppingCard() {
               quantity: 1,
             }],
             mode: 'payment',
-            successUrl: 'http://localhost:3000/success',
+            successUrl: 'https://lucasrhoden.github.io/Event-Scheduling/calendar/success',
             cancelUrl: 'https://example.com/cancel',
           });
           console.log(error)
