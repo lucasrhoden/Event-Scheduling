@@ -49,7 +49,7 @@ function Modal() {
                         <li>dica 2</li>
                         <li>dica 3</li>
                     </ol>
-                    <Button><a href="/calendar">Agendar</a></Button>
+                    <Button><a href="https://lucasrhoden.github.io/Event-Scheduling/calendar">Agendar</a></Button>
                 </div>
             </div>
             <div className="modalFooter">

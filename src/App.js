@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 import './App.css';
 import Banner from './Banner/Banner';
@@ -14,16 +14,16 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/" exact>
+          <Route path="/Event-Scheduling/" exact>
             <Header />
             <Banner />
             <Main />
             <Footer />
           </Route>
-          <Route path="/success">
+          <Route path="/Event-Scheduling/success">
             <PaymentSucceeded />
           </Route>
-          <Route path="/calendar">
+          <Route path="/Event-Scheduling/calendar">
             <div className="calendly">
             <div
               class="calendly-inline-widget" 
