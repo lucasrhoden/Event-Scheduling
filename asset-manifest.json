@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Event-Scheduling/static/css/main.5707a463.chunk.css",
+    "main.js": "/Event-Scheduling/static/js/main.99da3c52.chunk.js",
+    "main.js.map": "/Event-Scheduling/static/js/main.99da3c52.chunk.js.map",
+    "runtime-main.js": "/Event-Scheduling/static/js/runtime-main.62d9dd0a.js",
+    "runtime-main.js.map": "/Event-Scheduling/static/js/runtime-main.62d9dd0a.js.map",
+    "static/js/2.9224538a.chunk.js": "/Event-Scheduling/static/js/2.9224538a.chunk.js",
+    "static/js/2.9224538a.chunk.js.map": "/Event-Scheduling/static/js/2.9224538a.chunk.js.map",
+    "index.html": "/Event-Scheduling/index.html",
+    "precache-manifest.b52d3677747076e85fb41cfcf44ed277.js": "/Event-Scheduling/precache-manifest.b52d3677747076e85fb41cfcf44ed277.js",
+    "service-worker.js": "/Event-Scheduling/service-worker.js",
+    "static/css/main.5707a463.chunk.css.map": "/Event-Scheduling/static/css/main.5707a463.chunk.css.map",
+    "static/js/2.9224538a.chunk.js.LICENSE.txt": "/Event-Scheduling/static/js/2.9224538a.chunk.js.LICENSE.txt",
+    "static/media/Banner.css": "/Event-Scheduling/static/media/namaste.0a2729cc.jpg",
+    "static/media/perguntas_frequentes.png": "/Event-Scheduling/static/media/perguntas_frequentes.410e4675.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62d9dd0a.js",
+    "static/js/2.9224538a.chunk.js",
+    "static/css/main.5707a463.chunk.css",
+    "static/js/main.99da3c52.chunk.js"
+  ]
+}
