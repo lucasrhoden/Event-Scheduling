@@ -11,19 +11,19 @@ import PaymentSucceeded from "./PaymentSucceeded/PaymentSucceeded";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Switch>
-          <Route path="/Event-Scheduling/" exact>
+          <Route path="/" exact>
             <Header />
             <Banner />
             <Main />
             <Footer />
           </Route>
-          <Route path="/Event-Scheduling/success">
+          <Route path="/success">
             <PaymentSucceeded />
           </Route>
-          <Route path="/Event-Scheduling/calendar">
+          <Route path="/calendar">
             <div className="calendly">
             <div
               class="calendly-inline-widget" 
