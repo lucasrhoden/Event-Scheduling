@@ -1,0 +1,23 @@
+.footer {
+    position: relative;
+    top: 480px;
+}
+
+.footer_qna {
+    display: flex;
+    padding: 15px 0 5px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #8d909a;
+}
+
+.footer_qna > img {
+    margin-left: -270px;
+    height: 55px;
+}
+
+.footer_qna > .MuiButton-root {
+    height: fit-content;
+    color: white;
+    border-color: white;
+}

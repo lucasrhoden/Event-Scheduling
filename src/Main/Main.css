@@ -1,0 +1,11 @@
+.main {
+    position: relative;
+    top: 450px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .main {
+        top: 300px;
+    }
+}

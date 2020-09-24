@@ -1,0 +1,29 @@
+.eventInfo {
+    width: 750px;
+    margin-left: 105px;
+}
+
+.eventInfo_content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.eventInfo_content > h1 {
+    margin-bottom: 15px;
+}
+
+.eventInfo_contentLocation {
+    display: flex;
+}
+
+.eventInfo_contentLocation > p {
+    margin-left: 5px;
+}
+
+@media (max-width: 600px) {
+    .eventInfo {
+        width: 100%;
+        margin-left: 0;
+    }
+}

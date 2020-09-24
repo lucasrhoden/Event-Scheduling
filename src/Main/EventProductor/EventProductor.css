@@ -1,0 +1,59 @@
+.eventProductor {
+    padding: 40px 105px;
+}
+
+.eventProductor > h3{
+    padding: 25px;
+}
+
+.eventProductor_main {
+    display: flex;
+}
+
+.eventProductor_avatar {
+    margin-left: 25px;
+}
+
+.eventProductor_avatar > .MuiAvatar-root {
+    height: 100px;
+    width: 100px;
+}
+
+.eventProductor_info {
+    margin-left: 25px;
+}
+
+.eventProductor_more {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.eventProductor_more > .MuiButton-root {
+    color: black;
+    border-color: black;
+    text-transform: none;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+
+@media (max-width: 600px) {
+    .eventProductor {
+        padding: 40px 20px;
+    }
+
+    .eventProductor_main {
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    .eventProductor_info {
+        margin-left: 0;
+    }
+
+    .eventProductor_avatar{
+        justify-content: center;
+    }
+
+}
