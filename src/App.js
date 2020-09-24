@@ -20,7 +20,7 @@ function App() {
             <Main />
             <Footer />
           </Route>
-          <Route path="/success">
+          <Route path="success">
             <PaymentSucceeded />
           </Route>
           <Route path="/calendar">
