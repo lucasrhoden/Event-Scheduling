@@ -137,7 +137,12 @@ a {
     }
 
     .modalHeader {
+        padding-top: 50px;
         display: inline-block;
+    }
+
+    .modalHeader_right > p {
+        padding: 20px 0;
     }
 
     .modalHeader > .MuiSvgIcon-root{
@@ -145,6 +150,7 @@ a {
     }
 
     .modalBody {
+        padding-top: 20px;
         display: inline-block;
     }
 

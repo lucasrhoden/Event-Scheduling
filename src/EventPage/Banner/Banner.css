@@ -10,7 +10,7 @@
     position: absolute;
     z-index: -1;
     top: 0;
-    background: url("../assets/images/namaste.jpg") center;
+    background: url("../../assets/images/namaste.jpg") center;
     background-repeat: no-repeat;
     filter: blur(8px);
     background-size: cover;
@@ -22,7 +22,7 @@
     top: 50px;
     width: 50%;
     height: 410px;
-    background: url("../assets/images/namaste.jpg") center;
+    background: url("../../assets/images/namaste.jpg") center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px;

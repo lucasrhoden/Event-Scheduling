@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 import Button from "@material-ui/core/Button/Button";
+import { Link } from "react-router-dom";
 
 import "./Modal.css";
 import ReceiptItem from "./ReceiptItem/ReceiptItem";
@@ -49,7 +50,9 @@ function Modal() {
                         <li>dica 2</li>
                         <li>dica 3</li>
                     </ol>
-                    <Button><a href="https://lucasrhoden.github.io/Event-Scheduling/calendar">Agendar</a></Button>
+                    <a href="http://localhost:3000/Event-Scheduling#/calendar">Agendar ancor</a>
+                    <Link to="/calendar">Agendar Link</Link>
+                    <Button><a href="https://lucasrhoden.github.io/Event-Scheduling/#/calendar">Agendar</a></Button>
                 </div>
             </div>
             <div className="modalFooter">

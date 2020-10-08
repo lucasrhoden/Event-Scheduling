@@ -1,0 +1,115 @@
+.footer {
+    position: relative;
+    top: 480px;
+}
+
+.footer_qna {
+    display: flex;
+    padding: 15px 0 5px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #8d909a;
+}
+
+.footer_qna > img {
+    margin-left: -270px;
+    height: 55px;
+}
+
+.footer_qna > .MuiButton-root {
+    height: fit-content;
+    color: white;
+    border-color: white;
+}
+
+.footer_sitemap {
+    padding: 30px 140px;
+    text-align: center;
+    color: white;
+    background-color: #3c3e47;
+}
+
+.footer_sitemap_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_sitemap_left {
+    text-align: start;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.8px;
+}
+
+.footer_sitemap_left > p {
+    color: #ddd;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer_sitemap_left > ul {
+    list-style: none;
+    color: #969696;
+    margin: 15px 0 15px 0;
+    padding: 0;
+    line-height: 26px;
+    font-size: 12px;
+}
+
+.footer_sitemap_center {
+    position: relative;
+    left: 10px;
+}
+
+.footer_sitemap_center > p {
+    font-family: 'Raleway', sans-serif;
+    color: #ddd;
+    letter-spacing: 0.8px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer_sitemap_right {
+    text-align: end;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.8px;
+}
+
+.footer_sitemap_right > p {
+    color: #ddd;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer_sitemap_right > ul {
+    list-style: none;
+    color: #969696;
+    margin: 15px 0 15px 0;
+    padding: 0;
+    line-height: 26px;
+    font-size: 12px;
+}
+
+.footer_copyright {
+    position: relative;
+    left: 10px;
+    font-size: 11px;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        top: 380px;
+    }
+    .footer_qna > img {
+        display: none;
+    }
+
+    .footer_sitemap_content {
+        display: none;
+    }
+}

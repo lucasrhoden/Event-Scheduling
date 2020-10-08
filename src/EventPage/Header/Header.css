@@ -10,7 +10,7 @@
 }
 
 .header_content {
-    width: 1050px;
+    width: 1150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,16 +18,23 @@
 
 .header_contentOrganization{
     display: flex;
+    flex: 0.3;
 }
 
 .header_contentOrganization > p, a {
+    flex: 0.5;
     font-size: 12px;
-    margin-left: 5px;
+    margin-left: 1px;
 }
 
 .header_contentLogo {
     position: relative;
-    right: 70px;
+    right: 120px;
+    bottom: 5px
+}
+
+.header_sidemenu > .MuiIconButton-root {
+    color: white;
 }
 
 @media (max-width: 600px) {

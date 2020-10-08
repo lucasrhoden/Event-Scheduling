@@ -10,7 +10,6 @@ function Main() {
     return (
         <div className="main">
             <EventInfo />
-            <h1>Test4</h1>
             <EventShoppingCard />
             <EventDescription />
             <EventProductor />

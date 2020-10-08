@@ -2,31 +2,18 @@ import React from 'react';
 import { HashRouter, Route } from "react-router-dom"
 
 import './App.css';
-import Banner from './Banner/Banner';
-import Header from "./Header/Header";
-import Main from './Main/Main';
-import Footer from './Footer/Footer';
+import EventPage from "./EventPage/EventPage";
 import PaymentSucceeded from "./PaymentSucceeded/PaymentSucceeded";
+import Calendar from "./Calendar/Calendar";
+
 
 
 function App() {
   return (
     <HashRouter basename='/'>
-      <Route path="/" exact>
-        <Header />
-        <Banner />
-        <Main />
-        <Footer />
-      </Route>
-      <Route path="success" component={PaymentSucceeded} />
-      <Route path="/calendar">
-        <div className="calendly">
-          <div
-            class="calendly-inline-widget" 
-            style={{width:"100%", height: "100vh"}}
-            data-url="https://calendly.com/lucas-rhoden/teste?background_color=4d5055&text_color=ffffff" />
-        </div>
-      </Route>
+      <Route path="/" exact component={EventPage} />
+      <Route path="/success" component={PaymentSucceeded} />
+      <Route path="/calendar" component={Calendar} />
     </HashRouter>
   );
 }

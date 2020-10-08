@@ -1,8 +1,9 @@
 .eventProductor {
-    padding: 40px 105px;
+    padding: 40px 145px;
 }
 
 .eventProductor > h3{
+    font-weight: lighter;
     padding: 25px;
 }
 
@@ -31,7 +32,7 @@
 }
 
 .eventProductor_more > .MuiButton-root {
-    color: black;
+    color: grey;
     border-color: black;
     text-transform: none;
     box-sizing: border-box;
@@ -40,7 +41,8 @@
 
 @media (max-width: 600px) {
     .eventProductor {
-        padding: 40px 20px;
+        padding: 20px;
+        text-align: center;
     }
 
     .eventProductor_main {
@@ -49,11 +51,23 @@
     }
 
     .eventProductor_info {
-        margin-left: 0;
+        margin-left: 0px;
+        box-sizing: border-box;
+        padding: 10px 5px;
     }
 
     .eventProductor_avatar{
-        justify-content: center;
+        margin-left: 0px;
+        align-self: center;
+    }
+
+    .eventProductor_more {
+        flex-flow: column;
+        width: 100%;
+    }
+
+    .eventProductor_more > .MuiButton-root {
+        margin-top: 15px;
     }
 
 }

@@ -1,12 +1,15 @@
 .eventShoppingCard {
     width: 350px;
     position: absolute;
+    z-index: 1;
     left: 850px;
-    bottom: 450px;
+    bottom: 350px;
     box-shadow: 5px 10px 18px #888888;
 }
 
 .shoppingCardHeader {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
     display: flex;
     padding: 8px 15px;
     justify-content: space-between;
@@ -16,22 +19,48 @@
 
 .shoppingCardHeader_right {
     display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.shoppingCardHeader_right > .MuiSvgIcon-root {
+    margin-right: 5px;
+    font-size: 18px;
 }
 
 .shoppingCardInfo {
     padding: 8px 15px;
+    font-size: 15px;
     background-color: white;
     color: #50525f;
 }
 
+.shoppingCardInfo > p {
+    margin: 2px 0;
+}
+
+.shoppingCardInfo_main{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    align-content: center;
+    letter-spacing: 0.2px;
+}
+
+.shoppingCardInfo_main > .MuiSvgIcon-root {
+    margin-right: 3px;
+    font-size: 13px;
+}
+
 .shoppingCardContinue {
+    padding: 10px 15px;
     display: flex;
     justify-content: center;
-    padding: 5px 15px;
     background-color: white;
 }
 
 .shoppingCardContinue > .MuiButton-root {
+    margin-bottom: 5px;
     width: 100%;
     font-size: 11px;
     color: white;
@@ -45,8 +74,10 @@
 @media (max-width: 600px) {
     .eventShoppingCard {
         position: relative;
-        width: 100%;
-        left: 0;
+        place-content: center;
+        width: 80%;
+        box-sizing: border-box;
+        left: 35px;
         bottom: 0;
     }
 }
